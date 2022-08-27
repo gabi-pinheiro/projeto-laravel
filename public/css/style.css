@@ -201,10 +201,11 @@ nav{
 
 /*pag inicial*/
 
-.content-main h1{
+h1{
     padding: 1vh;
     margin-bottom: 40px;
-    color: rgb(170, 78, 244); 
+    color: rgb(170, 78, 244);
+    font-size: 3em; 
 }
 
 .content-main h2{
@@ -219,4 +220,40 @@ nav{
 .content-main img{
     border-radius: 50px;
     transform: rotate(5deg);    
+}
+
+/*quem somos*/
+
+#card-gabi p{
+    float: right;
+    width: 44%;
+    margin-top: 7%;
+}
+
+#card-gabi h3{
+    font-family: 'Great Vibes', cursive;
+    float: right;
+    font-size: 3em;
+    margin-left: 70%;
+    margin-right: 30%;
+}
+
+.quemsomos-content img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+#card-lui img{
+    float: right;
+}
+
+#card-lui h3{
+    font-size: 3em;
+    font-family: 'Rubik Maze', cursive;
+    margin-top: 10%;
+}
+
+#card-lui p{
+    width: 44%;
+    margin-top: 5%;
 }
