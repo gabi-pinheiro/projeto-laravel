@@ -261,16 +261,21 @@ h1{
 /*form login*/
 
 .form{
-    background: #FFF;
- padding: 100px 100px 50px 100px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- position: relative;
- width: 400px;
- font-size: 14px;
- border-radius: 5px;
+    width: 40%;
+  min-width: 320px;
+  max-width: 475px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+  
+  box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+  
 }
 
 .form input{
@@ -278,4 +283,30 @@ h1{
     display: fle;
     flex-direction: column;
     width: 100%;
+}
+
+    
+  input {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: .5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.25em;
+    color: #757575;
+
+}
+
+.form input[type="submit"]{
+    display: inline-block;
+    background: #d6b0f5;
+    border: 1px solid darken(#d6b0f5, 5%);
+    padding: .5em 2em;
+    color: white;
+    margin-right: .5em;
+    box-shadow: inset 0px 1px 0px fadeout(white, 80%); 
+    text-align: center;
+    width: 20%;
 }
