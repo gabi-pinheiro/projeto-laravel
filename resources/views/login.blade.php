@@ -11,6 +11,7 @@
         <input type="submit" value="Enviar">
     </form>
 
+    <a href="#">Esqueci minha senha</a>
     <p>ainda não tem uma conta? <a href="/cadastro">Cadastre-se</a></p>
 
 </div>

@@ -20,7 +20,7 @@
 <nav>
     <ul>        
         <li> <a href="/"> Home </a> </li>
-        <li> <a href="/quemsomos"> quem somos </a> </li>
+        <li> <a href="/quemsomos"> curadores </a> </li>
         <!--<li> <a href="/cadastro"> cadastro </a> </li>-->
         <li> <a href="/login"> login </a> </li>
         <li> <a href="/produtos"> produtos </a> </li>
