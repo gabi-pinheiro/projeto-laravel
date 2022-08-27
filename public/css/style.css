@@ -310,3 +310,16 @@ transform: translate(-50%,-50%);
     text-align: center;
     width: 20%;
 }
+
+.overlay{
+    background: red;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.overlay-container {
+    position: relative;
+  height: 200px;
+  width: 400px;
+}

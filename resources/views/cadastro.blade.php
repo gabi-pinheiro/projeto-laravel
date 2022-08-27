@@ -1,8 +1,10 @@
 @extends('template.default')
 @section('content')
 
+<div class="overlay-container"></div>
+<div class="overlay"></div>
 <div class="form">
-    <h1> cadastro </h1>
+    <h1> Cadastre-se </h1>
     <form> 
         <input type="text" name="" id="" placeholder="Nome">
         <br>
@@ -14,6 +16,6 @@
     </form>
     <p>Já tem uma conta? <a href="/login">Faça login</a></p>
 </div>
-
+</div>
 
 @endsection
