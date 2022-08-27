@@ -323,3 +323,8 @@ transform: translate(-50%,-50%);
   height: 200px;
   width: 400px;
 }
+
+textarea{
+    width: 100%;
+    resize: none;
+}
